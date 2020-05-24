@@ -14,5 +14,5 @@ jobs:
         who-to-greet: 'Adoni5 & Alexomics'
     # Use the output from the `hello` step
     - name: Get the output time
-      run: echo "Hello ${{steps.hello.outputs.name}} The time was ${{ steps.hello.outputs.time }}"
+      run: echo "Hello ${{ steps.hello.outputs.Hello }} The time was ${{ steps.hello.outputs.time }}"
 
