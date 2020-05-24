@@ -9,7 +9,7 @@ jobs:
       id: hello
       uses: adonis/hello_world_docker_action@v1.1
       with:
-        who-to-greet: 'Adonis & Alexomics'
+        who-to-greet: 'Adoni5 & Alexomics'
     # Use the output from the `hello` step
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
