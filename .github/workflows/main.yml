@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: adoni5/hello_world_docker_action/hello_world_docker_action@v1
+      uses: hello_world_docker_action/hello_world_docker_action@v1
       with:
         who-to-greet: 'Adonis & Alexomics'
     # Use the output from the `hello` step
